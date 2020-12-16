@@ -54,6 +54,6 @@ public class Controller {
 		} 
 		else return "wrong PetID";
 		
-		return "Pet " + json.get("id") + " was udated";
+		return "Pet " + json.get("id") + " was updated";
 	}
 }
