@@ -32,4 +32,12 @@ public class PetModel implements Serializable {
 	public Map<Integer, Pet> getAll() {
 		return model;
 	}
+	
+	public void del(int id) {
+		model.remove(id);
+	}
+	
+	public void upd(Pet pet, int id) {
+		model.replace(id, pet);
+	}
 }

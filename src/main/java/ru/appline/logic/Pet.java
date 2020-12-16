@@ -30,7 +30,4 @@ public class Pet {
 		this.type = type;
 		this.age = age;
 	}
-	
-	
-	
 }
